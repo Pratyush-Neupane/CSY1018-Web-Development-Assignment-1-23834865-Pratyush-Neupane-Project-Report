@@ -1,31 +1,36 @@
- 
+ /*home page css*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 body{
     background: #080808;
     color: #fff; 
 }
-#header{
+
+#home{
     width: 100%;
     height: 100vh;
     background-image: url(./images/banner.jpg.jpg);
     background-position: center;
     background-size: cover;
 } 
+
 .contenier{
     padding: 10px 10%;
 
 }
+
 nav{
     display: flex;
      align-items: center;
      justify-content: space-between;
      flex-wrap: wrap;
 }
+
 .logo{
     
     color: rgb(0, 147, 246);
@@ -45,6 +50,7 @@ nav ul li a{
     font-size: 18px;
     position: relative;
  }
+
 nav ul li a::after{
     content: '';
     width: 0;
@@ -56,22 +62,80 @@ nav ul li a::after{
     transition: 0.5s;
     
 }
-    
 
 nav ul li a:hover::after{ 
-
 width: 100%;
 }
+
 .home-text{
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 20%;
+    color: gray;
     
 }
+
 .home-text h1{
-    font-size: 60px;
-    margin-top: 20px;
+    font-size: 80px;
+    color: #fff;
 }
+
 .home-text h1 span{
     color: crimson;
+
 }
+.para{
+    font-size: 40px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+/*----end of home page css----*/
+#Portfolio{
+    padding: 80px 0;
+    color: #080808;
+    background: #9f97c3;  
+     
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+}
+.column-1{
+    flex-basis: 35%; 
+
+}
+.column-1 img{
+    width: 100%;
+    border-radius: 25px;
+
+}
+.column-2{
+    flex-basis: 60%;
+    font-size: 25px;
+
+}
+.port-title{
+    font-size: 65px;
+    font-weight: 650;
+}
+ 
+.port-sub-titles{
+    display:inline;
+    margin: 40px 0 20px;
+    font-size: 20px;
+   
+
+}
+.sub-title{
+    margin-right: 50px;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 40px;
+  
+}
+/*--end of portfolio css--*/
+
+  
  
