@@ -242,10 +242,13 @@ line-height: 16px;
 .contact-body .contact-form{
     position: relative;
     width: 40%;
-    background:#fff;
+    background:#c9c1c1;
     min-height: 100px;
-    padding: 50px;
+    padding: 50px ;
      
+}
+.span-text{
+    padding: 100px;
 }
 .contact-body .contact-form h2{
     font-size: 32px;
@@ -370,11 +373,11 @@ main.exp-row{
     font-size: 22px;
     padding: 10px 0px 5px;
     font-family:  Helvetica;
-    color: black;
+    color: #fff;
 }
 .exp-box p{
     line-height: 1.2;
-    color: #121211;
+    color: #c2bbbb;
     font-size: 18px;
     font-weight: 550;
     
